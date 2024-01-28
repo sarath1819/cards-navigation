@@ -5,112 +5,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .heading{
-            background-color: darkslategray;
-            color: white;
-            text-align: center;
+        .title{
+            margin-left: 70px;
+            margin-top: 70px;
+            margin-right: 200px;
+            font: 25px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: grey;
+            color: aquamarine;
+            
         }
         .b1{
-            border: 2px solid;
-            width: 900px;
-            height: 200px;
-            margin-left: 25px;
+            border: 3px double red ;
+            width: 400px;
+            height: 150px;
         }
         .b2{
-            border: 2px solid red;
-            width: 900px;
-            height: 200px;
-            margin-top: 1000px;
-            margin-left: 20px;
+            border: 3px dotted orange;
+            width: 400px;
+            height: 350px;
+            background-color: black;
+            margin-top: 15px;
         }
-        .card1{
-            width: 250px;
-            height: 100px;
-            padding-left: 25px;
-            background-color: grey;
-            margin: 25px;
-            padding-top: 25px;
-            padding-bottom: 10px;
-            overflow:scroll;
+        .b3{
+            border: 3px double greenyellow;
+            width: 400px;
+            height: 300px;
+            background-color: white;
+            margin-top: 15px;
+        }
+        .imgchange{
+            padding: 10px;
             
-            
         }
-        .card3{
-            width: 250px;
-            height: 100px;
-            padding-left: 25px;
-            background-color: dodgerblue;
-            padding-top: 25px;
-            padding-bottom: 25px;
-            margin: 25px;
-            overflow: scroll;
-        }
-
-
-
-
-
-
-
-
-
-        .text-design{
-            font-size: 25px;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            font-style: italic;
-            font-weight: bold;
-            text-align: justify;
-            text-shadow: 2px 2px 00px blue;
-        }
-        .btnchange{
-            font-size: 15px;
-            font-family: 'Times New Roman', Times, serif;
-            background-color: darkolivegreen;
-            border-radius: 15px;
-            border: thick;
-
-        }
-        
-        div,h4{
+        div{
             display: inline-block;
         }
+        .btn-style{
+            font-size: 20px;
+            font-family: cursive;
+            font-style: italic;
+            border-radius: 15px;
+          
+            margin-left: 80px;
+          
+            margin-bottom: 30pxpx;
+            background-color: lime;
+        }
+        .btn-image2{
+            padding-left: 20px;
+            margin-top: 15px;
 
-        
-       
-        
+        }
     </style>
 </head>
 <body>
-    <h1 class="heading">WELCOME TO MANNA SHOPPING MALl</h1>
-    <a href="#Electrostatic" style="color:lightgreen;"> <h4>Electrostatic</h4> </a>
-    <a href="#homefurnature"><h4 style="margin-left: 15px;">HOME FURNATURE</h4></a><br>
-    <div class="b1" id="Electrostatic">
-        <div class="card1">
-            <img src="./washing mechine.jpeg" alt="washing mechine" width="200" height="100">
-            <p class="text-design">This washing mechine is very high in cost but it main cloths ver neet and comfort with custmar</p>
-            <a href="https://www.flipkart.com/search?q=washinng%20mechine&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"><button class="btnchange">ORDER NOW</button></a>
-        </div>
-        <div class="card1">
-            <img src="./fridge.jpeg" alt="fridge" width="200" height="100">
-            <p class="text-design">this fridge is very nice to maintain</p>
-            <a href="https://www.flipkart.com/search?q=FRIDGE&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off" target="_blank"><button class="btnchange">ORDER NOW</button></a>
-        </div>
+    <marquee ><h3 class="title">SAMPLE VIEW OF CARDS </h3></marquee><hr>
+    <a href="#Section 1">Section 1</a>
+    <a href="#Section 2">Section 2</a>
+    <a href="#Section 3">Section 3</a>
+    <h2 style="text-shadow: 3px 3px 3px;">Section 1</h2>
+   
+    <div class="b1" id="Section 1">
+       
+        <img src="../cards-navigation/washing mechine.jpeg" alt="washing machine image" width="150" height="120" class="imgchange">
+        <img src="../cards-navigation/cup for tea.jpeg" alt="tea cup " width="150" height="100" class="imgchange" style="padding-left: 30px;">
 
     </div>
-    <div class="b2" id="homefurnature">
-        <div class="card3">
-            <img src="./cup for tea.jpeg" alt="" width="200" height="100">
-            <p class="text-design">this cup is very to see nad usage no more bad ractions whiile using this cup</p>
-            <a href="https://www.flipkart.com/search?q=single%20cup&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"><button class="btnchange">order now</button></a>
-        </div>
-
-        <div class="card3">
-            <img src="./cup for tea.jpeg" alt="" width="200" height="100">
-            <p class="text-design">this cup is very to see nad usage no more bad ractions whiile using this cup</p>
-            <a href="https://www.flipkart.com/search?q=single%20cup&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"><button class="btnchange">order now</button></a>
-        </div>
+    <h3 style="text-shadow: 4px 4px 4px;">Section 2</h3>
+    <div class="b2" id="Section 2">
         
-    </div>
+        <h4 style="color: lightskyblue; font-family: cursive; text-shadow: 3px -3px 0px rgb(255, 0, 0); text-align: center; margin-top: 10px;">please try this fridge</h4>
+        <img src="../cards-navigation/fridge.jpeg" alt="fidge" width="150" height="150" class="imgchange">
+         <img src="../cards-navigation/fridge.jpeg" alt="fridge"  >
+         <a href="https://www.flipkart.com/search?q=fridge&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"><button class="btn-style">ORDER NOW</button></a>
 
+    </div>
+    <h3 style="text-shadow: 3px 3px 3px;">Section 3</h3>
+    <div class="b3" id="Section 3">
+      
+        <h4 style="font-family: Arial, Helvetica, sans-serif;font-size: 15px;font-weight: bold;font-style: italic;padding-left: 20px;">VIEW POINT OF CARDS</h4>
+        <img src="../cards-navigation/cup for tea.jpeg" alt="any image" width="50" height="50" class="btn-image2">
+        <img src="../cards-navigation/washing mechine.jpeg" alt="any image" width="70" height="50" class="btn-image2">
+        <img src="../cards-navigation/fridge.jpeg" alt="any image" width="70" height="50" class="btn-image2">
+        <img src="../cards-navigation/cup for tea.jpeg" alt="any image" width="70" height="50" class="btn-image2">
+        <img src="../cards-navigation/washing mechine.jpeg" alt="any image" width="70" height="50" class="btn-image2">
+        <img src="../cards-navigation/fridge.jpeg" alt="any image" width="70" height="50" class="btn-image2">
+        <img src="../cards-navigation/cup for tea.jpeg" alt="any image" width="70" height="50" class="btn-image2">
+        <img src="../cards-navigation/fridge.jpeg" alt="any image" width="70" height="50" class="btn-image2"> 
+
+    </div>
 </body>
 </html>
